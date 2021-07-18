@@ -1,0 +1,55 @@
+.box {
+    border:2px solid #cc3333;
+    height:500px;
+    margin:20px;
+    width:500px;  
+    border-radius:30px;
+}
+.box div{
+   display: table-column;
+   float: left;
+   height: 100px;
+   text-align: center;
+   vertical-align: middle;
+   width: 300px;
+}
+
+.ao {
+   background:#0691DB;
+   border-radius:24px;
+}
+
+.ak {
+   background-color:#F00;
+   border-radius:24px;
+}
+
+.md{
+   background-color:#090;
+   border-radius:24px;
+}
+.cya{
+   background-color:peru;
+   border: solid 2px rgb(0, 0, 0);
+   border-radius:24px;
+}
+
+.box div{
+   display:block;
+   float:left;
+   height:100px;
+   width:310px;   
+}
+
+.containera{
+   display: flex;
+}
+input {
+   display: block;
+   margin-top: 10px;
+ }
+ .cya  button{
+   border: solid 2px rgb(0, 26, 255);
+   margin-top: 31px;
+   margin-left: 240px;
+ }
